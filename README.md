@@ -6,6 +6,11 @@ Imgui::DragFloat and ImGui::DragInt with runtime customizable speed with the mid
 
 ![Sample Frame](sample.gif)
 
+    static float fval = 100;
+    ImGui::DragFloatEx("float value", &fval, 1, -FLT_MAX, FLT_MAX);
+
+![Sample Frame](floats.png)
+
 # Integration
 
     Drop the two files inside the imgui folder in your imgui installation
