@@ -1,5 +1,5 @@
 # imgui_dragex
-Imgui::DragFloat and ImGui::DragInt with runtime customizable speed with the middle mouse button. Totally inspired in Houdini UI.
+Imgui::DragFloat and ImGui::DragInt with runtime customizable speed with the **middle mouse** button. Totally inspired in Houdini UI.
 
     #include "imgui/imgui_dragex.h"
     static int ival = 100;
