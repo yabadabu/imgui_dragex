@@ -7,7 +7,8 @@ Imgui::DragFloat and ImGui::DragInt with runtime customizable speed with the mid
 ![SampleIntegers](sample.gif)
 
     static float fval = 100;
-    ImGui::DragFloatEx("float value", &fval, 1, -FLT_MAX, FLT_MAX);
+    float initial_speed = 0.1f;
+    ImGui::DragFloatEx("float value", &fval, initial_speed, -FLT_MAX, FLT_MAX);
 
 ![SampleFloats](sample_floats.gif)
 
@@ -16,5 +17,5 @@ Imgui::DragFloat and ImGui::DragInt with runtime customizable speed with the mid
     Drop the two files inside the imgui folder in your imgui installation
     Add #include "imgui/imgui_drag_ex.h" in your source
     Change ImGui::DragInt to ImGui::DragIntEx (same for DragFloat)
-    Replace the 3rd argument speed value to 1
+    The 3rd argument speed becomes the initial speed. (I suggest 1 for integers)
 
