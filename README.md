@@ -4,12 +4,12 @@ Imgui::DragFloat and ImGui::DragInt with runtime customizable speed with the mid
     static int ival = 100;
     ImGui::DragIntEx("Int value", &ival, 1, 0, INT_MAX );
 
-![Sample Frame](sample.gif)
+![Sample integers](sample.gif)
 
     static float fval = 100;
     ImGui::DragFloatEx("float value", &fval, 1, -FLT_MAX, FLT_MAX);
 
-![Sample Frame](floats.png)
+![Sample floats](floats.gif)
 
 # Integration
 
